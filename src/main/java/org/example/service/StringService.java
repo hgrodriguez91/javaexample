@@ -2,7 +2,7 @@ package org.example.service;
 
 public class StringService {
 
-    public String invertir(String texto) {
+    public String invertirCadena(String texto) {
         if (texto == null) return null;
         return new StringBuilder(texto).reverse().toString();
     }

@@ -25,7 +25,7 @@ public class ReverseTextCommand implements Command {
         if(text == null || text.isBlank()){
             text = DEFAULT_TEXT;
         }
-        String reverseText = service.invertir(text);
+        String reverseText = service.invertirCadena(text);
         System.out.print(reverseText);
         System.out.println();
     }
